@@ -1,0 +1,17 @@
+create database PersonalDetail;
+
+use PersonalDetail;
+
+CREATE TABLE `Resume` (
+  `ResumeID` int(11) NOT NULL AUTO_INCREMENT,
+  `Firstname` varchar(50) DEFAULT NULL,
+  `Lastname` varchar(50) DEFAULT NULL,
+  `EmailAddress` varchar(100) DEFAULT NULL,
+  `SchoolName` varchar(50) DEFAULT NULL,
+  `LevelOfEducation` varchar(50) DEFAULT NULL,
+  `WorkExperiance` varchar(50) DEFAULT NULL,
+  `LevelOfExperty` varchar(50) DEFAULT NULL,
+  `SkillSetName` varchar(50) DEFAULT NULL,
+  `LevelOfSkillSet` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`ResumeID`)
+); 
